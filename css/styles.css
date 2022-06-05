@@ -74,13 +74,13 @@ span {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .hero {
   background-color: var(--footer-background-color);
+  text-align: center;
 }
 
 .button {
@@ -135,6 +135,9 @@ span {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+}
+
+.team-list li {
   text-align: center;
 }
 
@@ -157,6 +160,7 @@ span {
 .address-post {
   color: var(--accent-white-color);
 
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -166,6 +170,7 @@ span {
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
 
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
